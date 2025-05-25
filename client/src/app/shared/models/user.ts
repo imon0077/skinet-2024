@@ -1,15 +1,15 @@
 export type User = {
-    firstName: String;
-    lastName: String;
-    email: String;
+    firstName: string;
+    lastName: string;
+    email: string;
     address: Address;
 }
 
 export type Address = {
-    line1: String;
-    line2?:String;
-    city: String;
-    state: String;
-    country: String;
-    postalCode: String;
+    line1: string;
+    line2?:string;
+    city: string;
+    state: string;
+    country: string;
+    postalCode: string;
 }
